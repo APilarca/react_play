@@ -1,4 +1,3 @@
-
 var React = require('react');
 var ConfirmBattle = require('../components/ConfirmBattle');
 var githubHelpers = require('../utils/githubHelpers');
