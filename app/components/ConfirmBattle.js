@@ -3,8 +3,8 @@ var PropTypes = React.PropTypes;
 var styles = require('../styles');
 var ReactRouter = require('react-router');
 var Link = ReactRouter.Link;
-// var UserDetailsWrapper = require('./UserDetailsWrapper');
-// var UserDetails = require('./UserDetails');
+var UserDetailsWrapper = require('./UserDetailsWrapper');
+var UserDetails = require('./UserDetails');
 
 function ConfirmBattle (props) {
   return props.isLoading === true
